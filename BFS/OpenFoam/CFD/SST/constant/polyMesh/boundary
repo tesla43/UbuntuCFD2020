@@ -19,31 +19,36 @@ FoamFile
 (
     BACK
     {
-        type            empty;
+        type            patch;
+        physicalType    patch;
         nFaces          48093;
         startFace       95600;
     }
     WALL
     {
-        type            wall;
+        type            patch;
+        physicalType    patch;
         nFaces          965;
         startFace       143693;
     }
     INLET
     {
         type            patch;
+        physicalType    patch;
         nFaces          69;
         startFace       144658;
     }
     FRONT
     {
-        type            empty;
+        type            patch;
+        physicalType    patch;
         nFaces          48093;
         startFace       144727;
     }
     OUTLET
     {
         type            patch;
+        physicalType    patch;
         nFaces          138;
         startFace       192820;
     }
